@@ -1,0 +1,15 @@
+logging:
+  level:
+    org.springframework.transaction: DEBUG
+    org.springframework.orm.jpa: DEBUG
+    org.hibernate.type.descriptor.sql: INFO
+    org.hibernate.pretty: TRACE
+    org.hibernate.transaction: TRACE
+    org.hibernate.event: DEBUG
+    
+spring:
+  jpa:
+    properties:
+      hibernate:
+        show_sql: true
+        format_sql: true    
